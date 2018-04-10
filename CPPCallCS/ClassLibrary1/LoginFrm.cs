@@ -47,11 +47,11 @@ namespace ClassLibrary1
             {
                 DialogResult = DialogResult.OK;
             }
-            else if (UserNameTextBox.Text == "cyj7" && PasswordTextBox.Text == "123456")
+            else if (UserNameTextBox.Text == "cyj7" && PasswordTextBox.Text == "1234567")
             {
                 DialogResult = DialogResult.OK;
             }
-            else if (UserNameTextBox.Text == "cyj8" && PasswordTextBox.Text == "123456")
+            else if (UserNameTextBox.Text == "cyj9" && PasswordTextBox.Text == "1234567")
             {
                 DialogResult = DialogResult.OK;
             }
