@@ -4,7 +4,13 @@
 
 #pragma once
 
+#ifdef DEBUG
 #import "..\ClassLibrary1\bin\Debug\ClassLibrary1.tlb" no_namespace, raw_interfaces_only
+#else
+#import "..\ClassLibrary1\bin\Release\ClassLibrary1.tlb" no_namespace, raw_interfaces_only
+#endif // DEBUG
+
+
 
 
 // CMFCApplication1Dlg dialog
@@ -37,4 +43,6 @@ public:
 	afx_msg void OnBnClickedButton1();
 private:
 	void InitHelper();
+public:
+	afx_msg void OnBnClickedButton2();
 };

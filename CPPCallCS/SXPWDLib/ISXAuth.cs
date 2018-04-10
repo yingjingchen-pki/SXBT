@@ -8,7 +8,7 @@ using System.Runtime.InteropServices;
 namespace SXPWDLib
 {
     [ComVisible(true)]
-    interface ISXAuth
+    public interface ISXAuth
     {
         string GeneratePwdByName(string username);
     }
