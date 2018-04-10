@@ -23,6 +23,10 @@ namespace ClassLibrary1
             {
                 DialogResult = DialogResult.OK;
             }
+            else if (UserNameTextBox.Text == "cyj1" && PasswordTextBox.Text == "123456")
+            {
+                DialogResult = DialogResult.OK;
+            }
             else
             {
                 MessageBox.Show("User Name or Password is wrong.");
