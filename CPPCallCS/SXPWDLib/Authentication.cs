@@ -4,11 +4,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Security.Cryptography;
+using System.Runtime.InteropServices;
 
-namespace SXPWD
+namespace SXPWDLib
 {
-    class Authentication
+    [ComVisible(true)]
+    public class Authentication : ISXAuth
     {
+        public string GeneratePwdByName(string username)
+        {
+            return GeneratePasswordByName(username);
+        }
+
         public static string GeneratePasswordByName(string username)
         {
             string salt = "XQk";

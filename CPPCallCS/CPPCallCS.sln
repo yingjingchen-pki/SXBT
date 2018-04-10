@@ -12,6 +12,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1", "ClassLibra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PwdGenerater", "PwdGenerater\PwdGenerater.csproj", "{448C889A-7DFF-45E4-91F4-974A50881AD1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SXPWDLib", "SXPWDLib\SXPWDLib.csproj", "{B4AF73CD-7B17-46E1-8444-1693981F054F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,6 +60,18 @@ Global
 		{448C889A-7DFF-45E4-91F4-974A50881AD1}.Release|x64.Build.0 = Release|Any CPU
 		{448C889A-7DFF-45E4-91F4-974A50881AD1}.Release|x86.ActiveCfg = Release|Any CPU
 		{448C889A-7DFF-45E4-91F4-974A50881AD1}.Release|x86.Build.0 = Release|Any CPU
+		{B4AF73CD-7B17-46E1-8444-1693981F054F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4AF73CD-7B17-46E1-8444-1693981F054F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4AF73CD-7B17-46E1-8444-1693981F054F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{B4AF73CD-7B17-46E1-8444-1693981F054F}.Debug|x64.Build.0 = Debug|Any CPU
+		{B4AF73CD-7B17-46E1-8444-1693981F054F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B4AF73CD-7B17-46E1-8444-1693981F054F}.Debug|x86.Build.0 = Debug|Any CPU
+		{B4AF73CD-7B17-46E1-8444-1693981F054F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4AF73CD-7B17-46E1-8444-1693981F054F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4AF73CD-7B17-46E1-8444-1693981F054F}.Release|x64.ActiveCfg = Release|Any CPU
+		{B4AF73CD-7B17-46E1-8444-1693981F054F}.Release|x64.Build.0 = Release|Any CPU
+		{B4AF73CD-7B17-46E1-8444-1693981F054F}.Release|x86.ActiveCfg = Release|Any CPU
+		{B4AF73CD-7B17-46E1-8444-1693981F054F}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

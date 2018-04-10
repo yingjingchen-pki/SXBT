@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using SXPWD;
+using SXPWDLib;
 
 namespace ClassLibrary1
 {
