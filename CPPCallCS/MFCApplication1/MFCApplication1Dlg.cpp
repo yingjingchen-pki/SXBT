@@ -6,6 +6,7 @@
 #include "MFCApplication1.h"
 #include "MFCApplication1Dlg.h"
 #include "afxdialogex.h"
+#include "LoginDialog.h"
 
 #ifdef _DEBUG
 #define new DEBUG_NEW
@@ -66,6 +67,7 @@ BEGIN_MESSAGE_MAP(CMFCApplication1Dlg, CDialogEx)
 	ON_WM_PAINT()
 	ON_WM_QUERYDRAGICON()
 	ON_BN_CLICKED(IDC_BUTTON1, &CMFCApplication1Dlg::OnBnClickedButton1)
+	ON_BN_CLICKED(IDC_BUTTON2, &CMFCApplication1Dlg::OnBnClickedButton2)
 END_MESSAGE_MAP()
 
 
@@ -185,4 +187,11 @@ void CMFCApplication1Dlg::InitHelper()
 		//helperInitialized = true;
 	}
 
+}
+
+
+void CMFCApplication1Dlg::OnBnClickedButton2()
+{
+	CLoginDialog loginDialog;
+	loginDialog.DoModal();
 }
